@@ -36,7 +36,7 @@
             background-color: #fff;
             justify-content: center;
             align-items: center;
-            width: 80%;
+            width: 100%;
             padding-bottom: 1rem;
             padding-top: 1rem;
         }
@@ -140,7 +140,7 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            width: 80%;
+            width: 100%;
             border-left: 1px solid #0b1d6f;
             border-right: 1px solid #0b1d6f;
         }
@@ -154,7 +154,7 @@
             height: 100vh;
         }
 .covernav {
-    width: 80%;
+    width: 100%;
     z-index: 100;
     max-height: 0; /* Initial collapsed state */
     overflow: hidden; /* Prevent content from spilling out */
