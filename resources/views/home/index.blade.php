@@ -35,6 +35,8 @@
             position: fixed;
             background-color: #fff;
             justify-content: center;
+            padding-left: 1rem;
+            padding-right: 1rem;
             align-items: center;
             width: 100%;
             padding-bottom: 1rem;
