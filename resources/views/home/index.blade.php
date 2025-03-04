@@ -37,6 +37,7 @@
         .fucking-dd-container {
             width: 45%;
             margin-top: 2rem;
+            margin-bottom: 150px;
         }
 
         .article {
@@ -47,12 +48,17 @@
             cursor: pointer;
             padding: 12px 14px;
             box-sizing: border-box;
-            border-bottom: 1px solid #000;
+            border: 1px solid #000;
+            margin-top: 5px;
         }
 
         .article:hover {
-            background-color: #eee;
+            background-color: #efefef;
             transition: all 0.2s;
+        }
+
+        .article:first-child {
+            margin-top: 0;
         }
 
 
@@ -76,11 +82,14 @@
             display: flex;
             flex-direction: row;
             justify-content: space-between;
+            align-items: center;
         }
 
         .tickers {
             text-decoration: wavy !important;
             color: #000;
+            padding: 0;
+            margin: 0;
         }
     </style>
 </head>
@@ -100,15 +109,16 @@
                     </div>
                     <div class="bottom-chaos">
                         <div class="shitdongle-date">
-                            March 1st, 2025
+                            March 2nd, 2025
                         </div>
                         <div class="targetted-tickers">
-                           <a href="https://finance.yahoo.com/quote/ALLY/" class="tickers">ALLY</a>, <a href="https://finance.yahoo.com/quote/CVNA/" class="tickers">CVNA</a>, <a href="https://finance.yahoo.com/quote/^VIX/" class="tickers"><sup>^</sup>VIX</a>
+                           <a href="https://finance.yahoo.com/quote/ALLY/" class="tickers">ALLY</a>, <a href="https://finance.yahoo.com/quote/CVNA/" class="tickers">CVNA</a>, <a href="https://finance.yahoo.com/quote/^VIX/" class="tickers">VIX</a>
                         </div>
                     </div>
                 </div>
             </div>
         </a>
+
     </div>
     
 </body>
