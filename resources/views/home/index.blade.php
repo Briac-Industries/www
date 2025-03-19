@@ -105,12 +105,12 @@
             }
 
             .logo {
-                width: 175px;
+                width: 220px;
             }
 
             .slogan {
                 font-weight: 600;
-                font-size: 16px;
+                font-size: 20px;
             }
         }
 
