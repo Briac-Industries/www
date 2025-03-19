@@ -98,6 +98,13 @@
             margin-top: .5rem;
         }
 
+        a {
+            color: #000;
+            font-size: 16px;
+            font-weight: 500;
+            margin-top: 2rem;
+        }
+
         @media screen and (max-width: 768px) {
             .name {
                 font-size: 20px;
@@ -112,6 +119,10 @@
                 font-weight: 600;
                 font-size: 20px;
             }
+
+            a {
+                font-size: 12px;
+            }
         }
 
 
@@ -125,6 +136,7 @@
         <h1>Briac Industries</h1>
     </div>
     <h2 class="slogan">Shaping Tomorrow.</h2>
+    <a href="mailto:contact@ivleaguecapital.com">contact@ivleaguecapital.com</a>
     <!--<div class="fucking-dd-container">
         <a href="/article/auto-lenders" style="color: #000; text-decoration: none;">
             <div class="article">
