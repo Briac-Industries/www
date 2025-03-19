@@ -92,6 +92,13 @@
             margin: 0;
         }
 
+        @media screen and (max-width: 768px) {
+            .name {
+                font-size: 18px;
+                text-align: center;
+            }
+        }
+
 
     </style>
 </head>
@@ -102,7 +109,7 @@
     <div class="name">
         <h1>Briac Industries</h1>
     </div>
-    <div class="fucking-dd-container">
+    <!--<div class="fucking-dd-container">
         <a href="/article/auto-lenders" style="color: #000; text-decoration: none;">
             <div class="article">
                 <div class="deets">
@@ -121,8 +128,9 @@
             </div>
         </a>
 
-    </div>
-    
+    </div>-->
+
+
 </body>
 
 <script>
