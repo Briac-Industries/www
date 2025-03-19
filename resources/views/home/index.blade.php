@@ -92,10 +92,25 @@
             margin: 0;
         }
 
+        .slogan {
+            font-weight: 600;
+            font-size: 28px;
+            margin-top: .5rem;
+        }
+
         @media screen and (max-width: 768px) {
             .name {
-                font-size: 18px;
+                font-size: 20px;
                 text-align: center;
+            }
+
+            .logo {
+                width: 175px;
+            }
+
+            .slogan {
+                font-weight: 600;
+                font-size: 16px;
             }
         }
 
@@ -109,6 +124,7 @@
     <div class="name">
         <h1>Briac Industries</h1>
     </div>
+    <h2 class="slogan">Shaping Tomorrow.</h2>
     <!--<div class="fucking-dd-container">
         <a href="/article/auto-lenders" style="color: #000; text-decoration: none;">
             <div class="article">
