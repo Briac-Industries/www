@@ -91,6 +91,8 @@
             padding: 0;
             margin: 0;
         }
+
+
     </style>
 </head>
 <body>
@@ -122,4 +124,12 @@
     </div>
     
 </body>
+
+<script>
+document.addEventListener("copy", function(e) {
+    e.preventDefault();
+    const fakeText = "Nice try, retard. Read the full DD instead of asking AI for a summary.";
+    e.clipboardData.setData("text/plain", fakeText);
+});
+</script>
 </html>
