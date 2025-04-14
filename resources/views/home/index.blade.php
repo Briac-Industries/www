@@ -123,9 +123,32 @@
             a {
                 font-size: 15px;
             }
+
+            .values {
+                width: 90% !important;
+            }
         }
 
+        .values {
+            width: 45%;
+            margin-top: 2.5rem;
+            gap: 1rem;
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 150px;
+        }
 
+        .value-title {
+            font-size: 24px;
+            font-weight: 600;
+        }
+
+        .value-description {
+            font-size: 16px;
+            font-weight: 400;
+            margin-top: .5rem;
+        }
+            
     </style>
 </head>
 <body>
@@ -136,28 +159,50 @@
         <h1>Briac Industries</h1>
     </div>
     <h2 class="slogan">Shaping Tomorrow.</h2>
-    <a href="mailto:contact@ivleaguecapital.com">contact@ivleaguecapital.com</a>
-    <!--<div class="fucking-dd-container">
-        <a href="/article/auto-lenders" style="color: #000; text-decoration: none;">
-            <div class="article">
-                <div class="deets">
-                    <div class="title">
-                        Why Auto Lenders are about to eat 💩.
-                    </div>
-                    <div class="bottom-chaos">
-                        <div class="shitdongle-date">
-                            March 2nd, 2025
-                        </div>
-                        <div class="targetted-tickers">
-                           <a href="https://finance.yahoo.com/quote/ALLY/" class="tickers">ALLY</a>, <a href="https://finance.yahoo.com/quote/CVNA/" class="tickers">CVNA</a>, <a href="https://finance.yahoo.com/quote/^VIX/" class="tickers">VIX</a>
-                        </div>
-                    </div>
-                </div>
+    
+    <div class="values">
+        <h2>Values</h2>
+        <div class="value">
+            <div class="value-title">
+                1. Money ≠ Necessity
             </div>
-        </a>
-
-    </div>-->
-
+            <div class="value-description">
+                I don’t chase money. It’s not a necessity. If I make it, great. If I don’t, you’ll still move forward. Freedom matters more than digits.
+            </div>
+        </div>
+        <div class="value">
+            <div class="value-title">
+                2. YOLO is the Only Strategy
+            </div>
+            <div class="value-description">
+                There’s one life, one shot. I don’t play small. I go in with conviction, not caution, because there’s no reward without risk.
+            </div>
+        </div>
+        <div class="value">
+            <div class="value-title">
+                3. No Credit. No Debt.
+            </div>
+            <div class="value-description">
+            I don’t borrow. I don’t owe. If I can’t afford it, I don’t buy it. Loans are proof you’re stretching beyond your means. I don’t stretch for things I don’t need.
+            </div>
+        </div>
+        <div class="value">
+            <div class="value-title">
+                4. Materialism ≠ Value
+            </div>
+            <div class="value-description">
+            A car is a tool. A house is shelter. I don’t need expensive things to feel accomplished. The road doesn’t care what you drive, but if I earn it, and I love it, I’ll drive what I want. Just never on borrowed time.
+            </div>
+        </div>
+        <div class="value">
+            <div class="value-title">
+                5. Massive Gains = Massive Conviction
+            </div>
+            <div class="value-description">
+            I don’t diversify out of fear. If I believe in something, I go all in. People want 10x returns but only risk 5%. That’s not how I play.
+            </div>
+        </div>
+    </div>
 
 </body>
 
