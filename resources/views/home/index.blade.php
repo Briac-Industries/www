@@ -167,7 +167,7 @@
                 1. Money ≠ Necessity
             </div>
             <div class="value-description">
-                I don’t chase money. It’s not a necessity. If I make it, great. If I don’t, you’ll still move forward. Freedom matters more than digits.
+                I don’t chase money. It’s not a necessity. If I make it, great. If I don’t, I'll still move forward. Freedom matters more than digits.
             </div>
         </div>
         <div class="value">
