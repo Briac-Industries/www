@@ -131,7 +131,7 @@
 
         .values {
             width: 45%;
-            margin-top: 2.5rem;
+            margin-top: 3rem;
             gap: 1rem;
             display: flex;
             flex-direction: column;
